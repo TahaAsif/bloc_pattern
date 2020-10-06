@@ -30,7 +30,7 @@ class CustomSingleAlbumItem extends StatelessWidget {
                 child: Center(
                   child: Text(
                     'Album  Number ' + albumData[index][0].albumId.toString(),
-                    style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold, color: Colors.white),
                   ),
                 ),
               ),
